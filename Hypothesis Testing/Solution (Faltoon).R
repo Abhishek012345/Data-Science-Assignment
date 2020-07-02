@@ -1,0 +1,6 @@
+View(Faltoons)
+attach(Faltoons)
+table1 <- table(Weekdays,Weekend)
+View(table1)
+prop.test(x=c(66,47),n=c(167,120),conf.level = 0.95,correct = FALSE,alternative = "two.sided")
+summary(Faltoons)
